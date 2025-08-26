@@ -1,8 +1,20 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <main className="container">
       <section className="hero" aria-labelledby="hero-title">
-        <h1 id="hero-title">AI Product Specialist</h1>
+        <h1 id="hero-title">AI & Product</h1>
+        <div className="hero__avatar">
+          <Image
+            src="/profile.png"
+            alt="Wassym Kalouache profile photo"
+            width={96}
+            height={96}
+            className="avatar"
+            priority
+          />
+        </div>
         <p className="subtext">Execution-first.</p>
       </section>
 
@@ -42,6 +54,8 @@ export default function Home() {
         <p className="lede">Founder or builder? Let&#39;s talk.</p>
         <p>
           <a className="link-underline" rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/wassymkalouache/">LinkedIn</a>
+          <span> · </span>
+          <a className="link-underline" href="mailto:wassym.kalouache@gmail.com">wassym.kalouache@gmail.com</a>
         </p>
       </section>
     </main>
