@@ -15,7 +15,6 @@ export default function Home() {
             priority
           />
         </div>
-        <p className="subtext">Execution-first.</p>
       </section>
 
       <section id="about" className="section" aria-labelledby="about-title">

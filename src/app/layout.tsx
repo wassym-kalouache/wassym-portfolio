@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "Wassym Kalouache — AI Product Specialist",
   description:
     "Portfolio of Wassym Kalouache, AI Product Specialist. No buzzwords. Execution-first.",
+  icons: {
+    icon: "/profile.png",
+  },
 };
 
 export default function RootLayout({
