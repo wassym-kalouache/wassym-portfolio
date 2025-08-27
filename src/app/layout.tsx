@@ -6,7 +6,11 @@ export const metadata: Metadata = {
   description:
     "Portfolio of Wassym Kalouache, AI Product Specialist. No buzzwords. Execution-first.",
   icons: {
-    icon: "/profile.png",
+    icon: [
+      { url: "/profile.png", type: "image/png", sizes: "96x96" },
+    ],
+    shortcut: "/profile.png",
+    apple: "/profile.png",
   },
 };
 

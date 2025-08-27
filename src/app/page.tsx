@@ -19,11 +19,11 @@ export default function Home() {
 
       <section id="about" className="section" aria-labelledby="about-title">
         <h2 id="about-title">What I Do</h2>
-        <p className="lede">I help founders and teams turn AI ideas into shipped products.</p>
+        <p className="lede">I help teams turn AI ideas into shipped products.</p>
         <ul className="bullets">
           <li><strong>Ship fast:</strong> scope, prototype, iterate — measurable outcomes over noise.</li>
           <li><strong>Pragmatic AI:</strong> the simplest model that wins beats the fanciest that doesn&#39;t.</li>
-          <li><strong>Founder-friendly:</strong> clear tradeoffs, crisp roadmaps, minimal overhead.</li>
+          <li><strong>Founder-friendly:</strong> clear tradeoffs, crisp roadmaps.</li>
         </ul>
       </section>
 
@@ -40,7 +40,7 @@ export default function Home() {
 
           <article className="project">
             <h3 className="project__title">🏠 Airbnboost</h3>
-            <p className="project__desc">AI suggestions for titles, descriptions, pricing, and photos to boost bookings.</p>
+            <p className="project__desc">AI suggestions for titles, descriptions, and photos to boost bookings.</p>
             <p className="project__actions">
               <a className="button" rel="noopener noreferrer" target="_blank" href="https://www.airbnboost.homes/">Open</a>
             </p>
@@ -50,11 +50,11 @@ export default function Home() {
 
       <section id="contact" className="section" aria-labelledby="contact-title">
         <h2 id="contact-title">Get in Touch</h2>
-        <p className="lede">Founder or builder? Let&#39;s talk.</p>
+        <p className="lede">Looking for a partner? Let&#39;s talk.</p>
         <p>
           <a className="link-underline" rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/wassymkalouache/">LinkedIn</a>
           <span> · </span>
-          <a className="link-underline" href="mailto:wassym.kalouache@gmail.com">wassym.kalouache@gmail.com</a>
+          <a className="link-underline" href="mailto:wassym.kalouache@gmail.com">Email</a>
         </p>
       </section>
     </main>
