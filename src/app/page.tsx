@@ -39,8 +39,8 @@ export default function Home() {
           </article>
 
           <article className="project">
-            <h3 className="project__title">🏠 Airbnboost</h3>
-            <p className="project__desc">AI suggestions for titles, descriptions, and photos to boost bookings.</p>
+            <h3 className="project__title">🏠 Hostboost</h3>
+            <p className="project__desc">AI suggestions for titles, descriptions, and photos to boost bookings on Airbnb.</p>
             <p className="project__actions">
               <a className="button" rel="noopener noreferrer" target="_blank" href="https://www.airbnboost.homes/">Open</a>
             </p>
